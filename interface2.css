@@ -1,0 +1,124 @@
+body{
+    background-image: url(img/rm222-mind-31.jpg);
+    background-size: cover;
+}
+.container{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 28rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,2);
+    background-color: white;
+}
+.imagem{
+    width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+}
+.imagem img{
+    width: 45rem;
+    height: 75vh;
+}
+.formulario{
+    width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:rgb(159, 186, 243);
+        padding: 8rem;
+}
+.cabecario{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cabecario h1{
+    font-size: 1.5rem;
+    font-family: monospace;
+    color: white;
+}
+.cabecario h1::after{
+    content: '';
+        display: block;
+        width: 9rem;
+        height: 0.5rem;
+        background-color: #457fec;
+        margin: 0 auto;
+        position: absolute;
+        border-radius: 10px;
+}
+.input-group{
+    height: 30vh;
+    display: flex;
+    flex-wrap:wrap; 
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.input-box input{
+    margin: 0.1rem 1;
+    padding: 0.4rem 3rem;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px  #0000001c;
+}
+.input-box:hover{
+background-color: #eeeeee02;;
+}
+.input-box  input:focus-visible{
+     background-color: rgba(0, 0, 0, 0.418);
+}
+.input-box label{
+font-family: monospace;
+}
+.input-box input::placeholder{
+    font-family: monospace;
+    font-size: 0.7rem;
+}
+.botao input{
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    border: none;
+    background-color: rgb(72, 125, 196);
+    padding: 0.60rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao input:hover{
+    background-color: #457fec;
+}
+.botao input a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.botao-continuar input{
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    border: none;
+    background-color: rgb(72, 125, 196);
+    padding: 0.60rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-continuar input:hover{
+    background-color: #457fec;
+}
+.botao-continuar input a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
